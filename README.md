@@ -6,7 +6,7 @@ A simple console-based Tic-Tac-Toe game written in Rust.
 
 1. Clone the repository:
     ```bash
-    git clone git@github.com:wickedjargon/tictactoe-cli.git
+    git clone https://github.com/wickedjargon/tictactoe-cli.git
     ```
 2. Navigate to the project directory:
     ```bash
