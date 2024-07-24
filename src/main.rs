@@ -45,7 +45,7 @@ impl Game {
                         Player::O => print!(" O "),
                     }
                 } else {
-                    print!(" . ");
+                    print!("   ");
                 }
                 if j < 2 {
                     print!("|");
