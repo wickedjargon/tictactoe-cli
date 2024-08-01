@@ -2,7 +2,7 @@ use core::fmt;
 use std::io::{stdin, stdout, Write};
 
 #[derive(Copy, Clone, PartialEq, Eq)]
-pub enum Player {
+enum Player {
     X,
     O,
 }
@@ -16,7 +16,7 @@ impl fmt::Display for Player {
     }
 }
 
-pub struct Game {
+struct Game {
     board: [[Option<Player>; 3]; 3],
     current_player: Player,
 }
